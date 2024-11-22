@@ -21,8 +21,8 @@ import ReactFlowRenderer from '../React/WFDesigner/WFDesigner';
   selector: 'WFDesignerContainer',
   standalone: true,
   //imports: [RouterOutlet],
-  //template: '<div [id]="rootId"></div>',
-  templateUrl: './WfdesignerContainer.component.html',
+  template: '<div [id]="rootId"></div>',
+  //templateUrl: './WfdesignerContainer.component.html',
   styleUrl: '../app.component.css'
 })
 export class WFDesignerComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy {
